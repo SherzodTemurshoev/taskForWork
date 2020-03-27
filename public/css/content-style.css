@@ -1,0 +1,36 @@
+.content {
+	width: 70%;
+	margin: 20px auto;
+}
+.content h1 {
+	text-transform: uppercase;
+	margin: 10px 0;
+	color: #330000;
+}
+.content table {
+	width: 100%;
+	font-family: serif;
+	font-size: 16px;
+	background-color: #ece9e0;
+	border-radius: 5px;
+}
+.content table, tr, td {
+	border-spacing: 10px 10px;
+}
+.content table th {
+	font-size: 18px;
+	padding: 10px;
+	background-color: #0080ff;
+}
+.content table tr td{
+	padding: 5px;
+}
+.content table tr:nth-child(even) {
+	background-color: #00ffff;	
+}
+.content table tr:nth-child(odd) {
+	background-color: #ffb3b3;
+}
+.content a:hover {
+	border-bottom: 2px solid #330000;
+}

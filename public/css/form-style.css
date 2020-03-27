@@ -1,0 +1,44 @@
+.content {
+	width: 50%;
+	margin: 50px auto;
+	padding: 10px;
+	background-color: #00ffcc;
+	border: 1px solid silver;
+}
+.content h2 {
+	margin: 10px auto;
+}
+.content label {
+	display: inline-block;
+	width: 30%;
+	margin: 10px 5% 10px 5%;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+.content input {
+	display: inline-block;
+	width: 50%;
+	padding: 5px;
+	border-radius: 3px;
+}
+.content select {
+	width: 52%;
+	padding: 5px;
+	border-radius: 3px;
+}
+.content .btn {
+	width: 30%;
+	display: block;
+	margin: 10px auto;
+}
+.class-select {
+	position: relative;
+}
+.class-select select {
+	display: none;
+}
+.class-error {
+    margin: 10px 10px 10px 50px;
+    color: red;
+}
